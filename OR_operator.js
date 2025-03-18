@@ -1,4 +1,4 @@
-let playerFirstName = "",
+let playerFirstName,
 playerMiddleName = "",
 playerLastName = "";
 let tShirtDisplayName;

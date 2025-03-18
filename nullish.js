@@ -1,6 +1,7 @@
-let playerFirstName;
+let playerFirstName = "";
 let playerMiddleName = null;
-let playerLastName = null;
+let playerLastName = null; 
+console.log(playerFirstName);
 
 let tShirtName = playerFirstName ?? playerMiddleName ?? playerLastName ?? "Please provide a name";
 console.log(tShirtName);
