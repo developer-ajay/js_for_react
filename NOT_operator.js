@@ -1,7 +1,7 @@
-let thisIsATrueValue = false;
-console.log(thisIsATrueValue);
+let thisIsaTrueValue = false;
+console.log(thisIsaTrueValue);
 
-
-if (!thisIsATrueValue){
-    console.log("Please execute me!!");
+if (!thisIsaTrueValue){
+    console.log("Inside If block!");
+    
 }

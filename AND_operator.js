@@ -1,9 +1,11 @@
-let investors = true;
-let advertisment = true;
-let audience = true;
+let first_name = "Ajay" ;
+let middle_name = null;
+let last_name = "Joy";
 
-let match_ready = investors && advertisment && audience ;
+let finalDecision;
 
-console.log(match_ready ? "Match is ON" : "Match is OFF");
-console.log("Value Of Final Decision",match_ready);
+finalDecision = first_name && middle_name && last_name;
+console.log(finalDecision);
 
+
+console.log(finalDecision ? "Match is ON" : "Match is OFF");
