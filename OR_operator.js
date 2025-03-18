@@ -7,7 +7,7 @@ tShirtDisplayName = playerFirstName || playerMiddleName || playerLastName || con
 console.log(tShirtDisplayName);
 
 
-let advertisers = true ;
+let advertisers = true ; 
 let audience = false ;
 
 let finalDecision = advertisers || audience ;
