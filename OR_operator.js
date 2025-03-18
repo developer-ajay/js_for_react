@@ -3,7 +3,7 @@ playerMiddleName = "",
 playerLastName = "";
 let tShirtDisplayName;
 
-tShirtDisplayName = playerFirstName || playerMiddleName || playerLastName || "Unknown" ;
+tShirtDisplayName = playerFirstName || playerMiddleName || playerLastName || console.log("No name is given by the team");
 console.log(tShirtDisplayName);
 
 

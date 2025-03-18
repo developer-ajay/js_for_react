@@ -1,17 +1,15 @@
-let is_raining_today = false;
+let is_rain_today = true;
 let is_match_today;
 
-if (is_raining_today){
-     
-    is_match_today = "No, There is no match today!";
+if (!is_rain_today){
+  is_match_today = true
 }
 else {
-    is_match_today = "Yes, There is match today!"; 
+    is_match_today = false
 }
-
-console.log(is_match_today);
-
+console.log(`match is ${is_match_today}`);
 
 //ternary operator
-is_match_today = is_raining_today ? "No, There is no match today!" : "Yes, There is match today!";
-console.log(is_match_today);
+let match_status = is_rain_today ? "Match is on" : "Match os off"
+
+console.log(match_status);
